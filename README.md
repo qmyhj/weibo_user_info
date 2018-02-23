@@ -1,0 +1,2 @@
+# weibo_user_info
+用scrapy的crawlspider和cookiepool爬取微博用户信息
