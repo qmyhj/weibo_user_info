@@ -5,12 +5,13 @@ from scrapy.contrib.linkextractors import LinkExtractor
 from ..items import WeiboItem
 import re
 import json
+from ..settings import START_USER
 
 
 class WeiboUserSpider(CrawlSpider):
     name = 'weibo_user'
     allowed_domains = ['weibo.cn']
-    start_urls = ['https://weibo.cn/hu_ge']
+    start_urls = ['https://weibo.cn/u/{user}'.format(user=START_USER)]
 
 
     rules = (

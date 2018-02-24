@@ -91,7 +91,7 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-PARAMS = {
+MYSQL_PARAMS = {
     'host': 'localhost',
     'port': 3306,
     'user': 'root',
