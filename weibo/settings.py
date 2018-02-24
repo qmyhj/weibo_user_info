@@ -100,4 +100,5 @@ MYSQL_PARAMS = {
     'charset': 'utf8'
 }
 
+START_USER = '1223178222'
 WEIBO_COOKIE_URL = 'http://127.0.0.1:5000/weibo/random'
